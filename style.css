@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #222;
+}
+
+#game {
+    width: 800px;
+    height: 600px;
+    background-image: url("assets/map.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 3px solid black;
+}
+
+#player {
+    width: 300px;
+    height: 300px;
+    background-image: url("assets/player.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    image-rendering: pixelated;
+}
+
+
+
+#controls {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+#controls button {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    margin: 5px;
+    border-radius: 10px;
+}
+#controls {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+#quizObject {
+   
+
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 300px;
+    top: 100px;
+
+    background-image: url("assets/trash.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    cursor: pointer;
+}
+
